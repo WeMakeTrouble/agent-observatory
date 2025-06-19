@@ -3,31 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiverse Engine - Agent Observatory</title>
+    <title>Echo Genesis Engine - Live Simulation Viewer</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/mac_style.css">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="desktop">
-        <div id="menu-bar">
-            <div class="menu-item"><b>File</b></div>
-            <div class="menu-item"><b>Edit</b></div>
-            <div class="menu-item"><b>View</b></div>
-            <div class="menu-item"><b>Special</b></div>
-        </div>
-
-        <div id="simulation-window">
-            <div class="title-bar">
-                <div class="close-box"></div>
-                <div class="title-text">||| Multiverse Engine v0.1 |||</div>
-                <div class="zoom-box"></div>
+    <div class="environment"></div>
+    <div class="dust" style="left: 10%; animation-delay: 0s;"></div>
+    <div class="dust" style="left: 30%; animation-delay: 2s;"></div>
+    <div class="dust" style="left: 50%; animation-delay: 5s;"></div>
+    <div class="dust" style="left: 70%; animation-delay: 9s;"></div>
+    <div class="dust" style="left: 90%; animation-delay: 13s;"></div>
+    <div class="computer-desk"></div>
+    <div class="mac128k">
+        <div class="mac-body">
+            <div class="wear-overlay"></div>
+            <div class="screen-bezel">
+                <div class="screen">
+                    <div class="terminal-content" id="terminal-output">
+                        <div id="simulation-feed">
+                            <p>> BOOTING P.S.M. KERNEL...</p>
+                            <p>> ESTABLISHING CONNECTION TO TRANSIT HUB...</p>
+                            <p style="color:#00ff00;">> CONNECTION ESTABLISHED.</p>
+                            <p>> AWAITING SIMULATION DATA STREAM...</p>
+                        </div>
+                        <div class="blinking-cursor"></div>
+                    </div>
+                    <div class="terminal-content rabbit-hole-text" id="rabbit-hole-content" style="display: none;">
+                        <h3>**Project Overview: The Piza Sukeruton Multiverse**</h3>
+                        <p><strong>A Living Narrative Engine</strong></p>
+                        <p>The Piza Sukeruton Multiverse is conceived not as a traditional game... [and so on, the full text will be here]</p>
+                    </div>
+                </div>
             </div>
-            <div class="window-content">
-                <pre id="simulation-log"></pre>
+            <div class="floppy-slot"></div>
+            <button class="rabbit-hole-button" id="rabbitHoleBtn">RABBIT HOLE</button>
+            <div class="product-decal">
+                <span class="decal-small-text">another fine product from</span><br>
+                <span class="decal-large-text">We Make Trouble</span>
             </div>
         </div>
     </div>
-
     <script src="js/observatory.js"></script>
 </body>
 </html>
