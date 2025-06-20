@@ -1,0 +1,21 @@
+{
+  "agent_id": "echo_001",
+  "name": "One",
+  "true_name": "Ichiro",
+  "iteration_count": 1,
+  "background": "Ex-data analyst who found patterns in random number generators that shouldn't be there.",
+  "abilities": {
+    "strength": 13, "dexterity": 9, "constitution": 5,
+    "intelligence": 8, "wisdom": 13, "charisma": 14, "luck": 11
+  },
+  "traits": {
+    "physical_quirks": "Never gets dizzy, regardless of spinning or motion",
+    "social_patterns": "Remembers the exact words of every goodbye they've ever heard",
+    "cognitive_oddities": "Thinks in flowcharts when stressed",
+    "emotional_signatures": "Gets inexplicably sad during perfectly sunny weather"
+  },
+  "phantomMemories": [
+    "The feeling of rain on their face during a drought that lasted their entire childhood.",
+    "Helping a friend move apartments, but that friend has never moved in their entire life."
+  ]
+}
